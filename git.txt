@@ -1,0 +1,3 @@
+git init "inicializa el repositorio
+git add "para preparar los archivos para la subida
+git commit -M "nombre del actualizacion" #COMENTARIO QUE INDIQUE QUE VAMOS A SUBIR git
