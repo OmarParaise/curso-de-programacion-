@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family"poppins", serif;
+}/*Variables*/
+:root{
+    --main-color:#07429a;
+    --second-color:#A0C878;
+    --third-color:#27667B;
+    --white: #ffffff;
+    --black: black;
+}
+.margin-top-10x{
+    margin-top: 10px;
+}
+.margin-top-20r{
+    margin-top: 20%;
+}
+.margin-top-2em{
+    margin: 2em;
+}
+.padding-200x{
+    padding: 200px;
+}
+.box{
+    
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    place-items: center;
+    margin: 0px;
+    border: 1px salmon;
+    margin: 5px;
+    border-radius: 15px;
+}
+.box h2{
+    text-align: center;/* Alineacion de texto*/
+}
+.blue{
+    background-color: #2a017e;
+}
+.aqua{
+    background-color: #27667B;
+}
+.font-white{
+    color: var(--white);
+}
+.h2{
+    color:var(--main-color);
+    font-size: 80px;
+    font-family:impact;
+    text-decoration: underline;/* Subrayado*/
+}
+h1{ 
+    color:var(--second-color); /* Color de la fuente*/ 
+    font-size:64px; /** Tamaño de fuente*/
+    font-family: Arial; /*Tipo de fuente o letra*/
+    font-weight: bold;/* Peso de fuente si es gordita o delgada*/
+    text-transform:uppercase;/*Mayuscula*/
+}
+.servicios{
+    background-color:var(--third-color); /* color de fondo*/
+    padding: 50px; /* Espacio interno*/
+
+}
+.servicios h3{
+    color:var(--white);
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;   
+}
+.servicios p{
+    color:var(--third-color);
+    font-size: 18px;
+    line-height: 1.3em; /* Espacio entre lineas*/
+}
